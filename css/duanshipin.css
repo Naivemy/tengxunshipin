@@ -1,0 +1,240 @@
+body,
+ul,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+
+  list-style: none;
+}
+
+body {
+  background-color: black;
+
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #999;
+}
+
+#nav {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  display: flex;
+  background-color: #000;
+  border-top: 2px solid #fff;
+}
+
+#nav li {
+  width: 20%;
+  text-align: center;
+
+}
+
+#nav li p {
+  color: #fff;
+}
+
+#nav li span {
+
+  font-size: 24px;
+  line-height: 30px;
+  display: block;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* 订阅 推荐 */
+#header p {
+  color: #fff;
+  font-size: 20px;
+  right: 35%;
+  text-decoration: underline;
+  position: fixed;
+}
+
+#header span {
+  color: #fff;
+  font-size: 20px;
+  float: right;
+  display: flex;
+  /* margin-top: 10px; */
+  margin-right: 10px;
+}
+
+#header a {
+  /* right: 20px; */
+  position: fixed;
+  left: 35%;
+  font-size: 20px;
+
+}
+
+/* 视频 介绍 */
+.content {
+  max-width: 910px;
+  margin: 0 auto;
+}
+
+.shipin {
+  display: block;
+  margin: 0 auto;
+}
+
+#videos {
+  margin-top: 20%;
+}
+
+#dier {
+  /* margin-top:56%; */
+  color: #fff;
+  width: 70%;
+  font-size: 4vw;
+
+}
+
+#dier .yi {
+  margin-bottom: 6%;
+}
+
+/* 右边头像 标签 */
+#disan {
+  position: absolute;
+  right: 0;
+  top: 60%;
+
+  /* float: right; */
+
+}
+
+#disan img {
+  position: absolute;
+  left: -47px;
+  width: 50px;
+  height: 50px;
+  margin-top: -92px;
+}
+
+#disan span:first-child {
+  display: inline-block;
+  top: 60px;
+  transform: translate(-34px, -18px);
+
+}
+
+#disan span {
+  color: #fff;
+  font-size: 24px;
+  line-height: 30px;
+  /* display: block; */
+  font-weight: bold;
+
+  margin: 2px;
+}
+
+
+#disan p {
+  margin: 0 -7px;
+  line-height: 24px;
+  transform: translate(-34px, -18px);
+
+}
+
+.popUpWindow {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+.popUpWindow>.window {
+  width: 100%;
+  height: calc(100% - 150px);
+  position: fixed;
+  z-index: 1001;
+  bottom: 0px;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.popUpWindow>.window>.title {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.popUpWindow>.window>.content {
+  width: 100%;
+  height: calc(100% - 40px);
+  overflow: auto;
+}
+
+.popUpWindow>.window>.content>.list {
+  width: 100%;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+.popUpWindow>.window>.content>.list>.item {
+  padding: 10px 0px;
+  border-bottom: 0.5px solid rgb(197, 197, 197);
+}
+
+.popUpWindow>.window>.content>.list>.item>.top {
+  display: flex;
+  flex-flow: nowrap;
+  line-height: 32px;
+}
+
+.popUpWindow>.window>.content>.list>.item>.top>img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.popUpWindow>.window>.content>.list>.item>.bottom {
+  margin-top: 10px;
+}
+
+.popUpWindow>.window>.content>.list>.item>.footer {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-between;
+  font-size: 14px;
+  color: rgb(100, 100, 100);
+}
+
+
+/* 评论 */
+.frame img {
+  display: inline-block;
+  margin-right: 4px;
+  padding: 4px 0 0 0;
+  width: 30px;
+  height: 30px;
+}
+
+.frame p {
+  display: inline-block;
+  margin-left: -17px;
+
+  text-indent: 0.5em;
+  color: rgb(10, 9, 8);
+  font-size: 16px;
+  padding: 10px;
+}

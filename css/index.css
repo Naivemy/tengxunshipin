@@ -1,0 +1,381 @@
+body,
+ul,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #999;
+}
+
+body {
+  height: 1866px;
+
+}
+
+/* 下标签 */
+#nav {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  display: flex;
+  background-color: #fff;
+
+}
+
+#nav li {
+  width: 20%;
+  text-align: center;
+
+}
+
+#nav li span {
+
+  font-size: 24px;
+  line-height: 30px;
+  display: block;
+  font-weight: bold;
+}
+
+/* 下标签 */
+
+
+/* 上导航 */
+#header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+
+  z-index: 100;
+  display: flex;
+  background-color: #fff;
+}
+
+#header li {
+  width: 20%;
+  text-align: center;
+
+}
+
+#header li span {
+
+  font-size: 24px;
+  line-height: 30px;
+  display: block;
+  font-weight: bold;
+}
+
+/* 搜索 */
+.search {
+  height: 30px;
+  display: flex;
+
+  margin: 0 auto;
+}
+
+.sousuo a {
+  scale: 1.5;
+  line-height: 30px;
+  margin-left: 14px;
+  margin-right: 5px;
+}
+
+/* 搜索箭头和搜索框 */
+.con {
+  display: flex;
+  /* border: 1px solid red; */
+  height: 100%;
+}
+
+.sousuokuang {
+  line-height: 15px;
+
+}
+
+.sousuokuang input {
+
+  height: 83%;
+  transform: translate(-1%, 7%);
+
+}
+
+
+.main_tubiao {
+  margin-left: 5px;
+  display: flex;
+
+
+}
+
+.tubiao {
+  scale: 1.5;
+  line-height: 30px;
+  margin-left: 25px;
+
+}
+
+/* 直播 精选 发现 电视剧 电影 综艺 */
+.navibar {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  background-color: #fff;
+}
+
+.navibar li {
+  text-align: center;
+  flex: 1;
+}
+
+.navibar li a {
+  font-size: 20px;
+  line-height: 30px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.navibar li a.active {
+  color: red;
+}
+
+
+/* 滚动页面 */
+
+.focus {
+  position: relative;
+  overflow: hidden;
+  /* width: 375px; */
+
+}
+
+.focus img {
+  width: 100%;
+  height: 58%;
+}
+
+.focus ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 500%;
+
+  overflow: hidden;
+  margin-left: -100%;
+}
+
+.focus ul li {
+  float: left;
+  width: 20%;
+  height: 100%;
+  transition: all .3;
+}
+
+.focus ol {
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+ol li {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  list-style: none;
+  border-radius: 50%;
+}
+
+li.current {
+  width: 15px;
+  border-radius: 2px;
+}
+
+
+/* 重磅热播 */
+#diwu {
+  margin: 2px;
+  margin-top: 10px;
+  width: 100%;
+  height: 478px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  border-radius: 10px;
+  margin-left: 10px;
+
+
+}
+
+#diwu li {
+  font-size: 24px;
+
+}
+
+#diwu li p {
+  float: right;
+  font-size: 24px;
+
+}
+
+#diwu li p:nth-child(1) {
+  font-size: 14px;
+}
+
+#zhongbangrebo {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#zhongbangrebo span {
+  font-size: 22px;
+  /* margin-right: 80%; */
+}
+
+#zhongbangrebo>p {
+  position: absolute;
+  color: #999;
+  margin-left: 140px;
+}
+
+#fenlei {
+  width: 98%;
+  height: 400px;
+  margin-left: 8px;
+  margin-top: 20px;
+}
+
+.list {
+  width: 47%;
+  height: 60%;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+
+.list img {
+
+
+  width: 100%;
+  height: 52%;
+  position: relative;
+  float: left;
+}
+
+
+.list p a {
+  font-size: 20px;
+  color: gray;
+  display: block;
+  justify-content: space-around;
+  /* line-height: 24px; */
+  margin: auto;
+
+  /* text-align: center; */
+}
+
+/* 重磅热播 */
+
+
+
+/* 热点排行榜 */
+#diliu {
+  width: 100%;
+  z-index: 100;
+  background-color: #fff;
+  float: left;
+  margin-top: 20px;
+  margin-left: 10px;
+  height: 0px;
+
+}
+
+#diliu .fenlei1 {
+  width: 50%;
+  height: 60px;
+  border-radius: 15px;
+  background-color: rgb(255, 252, 245);
+  margin-top: 10px;
+  /* display: flex; */
+  justify-content: space-between;
+  float: left;
+
+}
+
+#diliu .fenlei1 p {
+
+  /* float: left; */
+  margin-left: 31px;
+  margin-top: -25px;
+}
+
+#diliu span {
+  color: rgb(243, 98, 38);
+  width: 100%;
+  font-size: 24px;
+  line-height: 0px;
+  /* display: block; */
+  font-weight: bold;
+  text-align: center;
+}
+
+/* 热点排行榜 */
+
+
+/* 视频 */
+.x_shipin1 {
+  margin-top: -48px;
+  width: 100%;
+
+}
+
+.x_shipin1 #videos {
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+
+.x_shipin2 {
+  margin-top: -8px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: rgb(132, 153, 86);
+  height: 120px;
+}
+
+.x_shipin2 .fenlei3 p {
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  top: -20px;
+}
+
+
+.x_shipin2 .fenlei3 img {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.x_shipin2 .fenlei3 a {
+  color: rgb(218, 216, 216);
+  font-size: 14px
+}
+
+.x_shipin2 .fenlei3 #xiaofu {
+  color: #fff;
+  font-size: 14px
+}

@@ -1,0 +1,139 @@
+body,
+ul,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #999;
+}
+
+
+#sousuo {
+
+  height: 50px;
+  width: 100%;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  background-color: #fff;
+}
+
+#sousuo li {
+
+  width: 21%;
+  text-align: center;
+
+}
+
+#sousuo li p {
+
+  margin-top: 1px;
+
+
+}
+
+#sousuo li input {
+
+  height: 53%;
+  transform: translate(-1%, 7%);
+
+
+}
+
+#sousuo li span {
+  margin-top: 2px;
+  /* font-size: 36px; */
+  line-height: 30px;
+  display: block;
+  font-weight: bold;
+}
+
+#sousuo li:nth-child(3) {
+
+  margin-left: 200px;
+  margin-top: 2px;
+}
+
+#sousuo li:nth-child(4) {
+  margin-top: 6px;
+
+
+}
+
+#tuijiansousuo p {
+  margin-top: 15px;
+  margin-left: 15px;
+  color: #999;
+}
+
+#history {
+  width: 100%;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  flex-flow: wrap;
+  margin: 6px;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+
+#history li {
+  border-radius: 15px;
+  background-color: rgb(208, 205, 197);
+  margin-top: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+#history li p {
+  /* font-size: 26px; */
+
+  color: rgb(15, 15, 14);
+}
+
+#resou {
+  margin-top: 2px;
+}
+
+#resou .fenlei {
+  display: flex;
+  width: 100%;
+  margin-top: 2px;
+  
+}
+
+#resou .fenlei p {
+
+
+  height: 20px;
+  line-height: 40px;
+  margin: 0 auto;
+  margin-top: 4%;
+
+  /* font-size: 29px; */
+  margin-left: 15px;
+}
+
+#resou .fenlei span {
+  margin-left: 150px;
+  color: coral;
+  /* font-size: 32px; */
+}
+
+#resou .fenlei a {
+  margin-top: 6%;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* font-size: 32px; */
+  font-weight: bold;
+  color: coral;
+}

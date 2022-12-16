@@ -1,0 +1,382 @@
+body,
+ul,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+
+  list-style: none;
+}
+
+body {
+  background-color: rgb(45, 44, 44);
+  min-width: 260px;
+
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #999;
+}
+
+#nav {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  display: flex;
+  background-color: #fff;
+}
+
+#nav li {
+  width: 20%;
+  text-align: center;
+
+}
+
+#nav li span {
+
+  font-size: 24px;
+  line-height: 30px;
+  display: block;
+  font-weight: bold;
+}
+
+/* 轮播图 */
+.focus {
+  position: relative;
+  overflow: hidden;
+  /* width: 375px; */
+
+}
+
+.focus img {
+  width: 100%;
+  height: 58%;
+}
+
+.focus ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 500%;
+
+  overflow: hidden;
+  margin-left: -100%;
+}
+
+.focus ul li {
+  float: left;
+  width: 20%;
+  height: 100%;
+  transition: all .3;
+}
+
+.focus ol {
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+ol li {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  list-style: none;
+  border-radius: 50%;
+}
+
+li.current {
+  width: 15px;
+  border-radius: 2px;
+}
+
+/* 轮播图 */
+
+/* 精选 vip福利 一起看 电视剧 电影 动漫 */
+.banner {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+
+}
+
+.banner li {
+  text-align: center;
+  flex: 1;
+}
+
+.banner li a {
+  /* font-size: 28px; */
+  line-height: 30px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.banner li p:hover {
+  color: red;
+}
+
+.banner li p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.banner li span {
+  /* font-size: 28px; */
+  color: #fff;
+}
+
+
+/* 头像所在盒子 */
+.frame {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 20px;
+  border-radius: 20px;
+  background-color: rgb(52, 53, 71);
+  padding-bottom: 20px;
+}
+
+
+
+.frame img:first-child {
+
+  margin-right: 4px;
+  padding: 4px;
+
+  border-radius: 60px;
+  width: 60px;
+  height: 60px;
+
+}
+
+.frame img:nth-child(3) {
+  position: relative;
+  width: 90px;
+  height: 30px;
+  left: 17%;
+  top: 20px;
+
+}
+
+.frame span:first-child {
+  color: rgb(30, 216, 122);
+}
+
+.frame span:nth-child(2) {
+  color: rgb(209, 210, 209);
+}
+
+
+
+.frame p {
+  display: inline-block;
+  text-indent: 0.5em;
+  color: rgb(10, 9, 8);
+  font-size: 18px;
+  padding: 10px;
+  font-weight: bold;
+
+}
+
+.frame p a {
+  font-weight: normal;
+  color: rgb(244, 240, 240);
+  text-decoration: none;
+
+}
+
+/* 头像下面那行那四个盒子 */
+#banner1 {
+  width: 100%;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  flex-flow: nowrap;
+
+  margin-left: 1px;
+  box-sizing: border-box;
+}
+
+#banner1 .fenlei {
+  width: 25%;
+
+  border-radius: 15px;
+  background-color: rgb(38, 40, 53);
+  margin-top: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+#banner1 .fenlei p {
+  font-size: 14px;
+
+  color: rgb(165, 144, 98);
+}
+
+#banner1 .fenlei p a {
+  font-weight: normal;
+  font-size: 12px;
+  color: rgb(244, 244, 243);
+}
+
+/* vip今日专属推荐 */
+#diyi {
+
+  margin: 2px;
+  margin-top: 10px;
+  width: 100%;
+
+  background-color: rgb(52, 53, 71);
+
+  border-radius: 20px;
+  margin-left: 2px;
+
+}
+
+#jinrituijian>div:nth-child(4)>img {
+  padding-right: 12px;
+}
+
+#diyi li {
+  /* font-size: 32px; */
+  color: #fff;
+  margin: 20px;
+
+
+}
+
+#diyi li p {
+
+  /* font-size: 24px; */
+  padding-top: 11px;
+
+}
+
+/* 所有影视推荐样式*/
+.x_banner {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+.list {
+  margin-left: 8px;
+  width: 25%;
+}
+
+.list img {
+  width: 91%;
+}
+
+/* 秦昊万茜掌舵工业变革 */
+#dier {
+  background-color: rgb(15, 14, 14);
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+
+  border-radius: 20px;
+}
+
+#dier .fenlei2 {
+  margin-top: 10px;
+}
+
+#dier .fenlei2 p {
+  color: #fff;
+  /* font-size: 34px; */
+  display: inline-block;
+  position: relative;
+
+  margin-left: 30px;
+
+
+}
+
+/* 视频 */
+#disan {
+  margin-top: 30px;
+  width: 100%;
+
+}
+
+#disan #videos {
+  width: 100%;
+  height: 100%;
+  margin-top: -30px;
+  border-radius: 20px;
+}
+
+/* 大博弈 */
+#disi {
+  margin: 2px;
+  margin-top: 10px;
+  width: 100%;
+  height: 126px;
+  background-color: rgb(8, 8, 8);
+
+  border-radius: 20px;
+  margin-left: 2px;
+
+}
+
+#disi .list img {
+  margin-top: 20px;
+  border-radius: 20px;
+
+}
+
+/* 热爱随时在场 */
+#diwu {
+  margin: 1px;
+  margin-top: 10px;
+  width: 100%;
+
+  background-color: rgb(47, 81, 82);
+
+  border-radius: 20px;
+  margin-left: 1px;
+
+}
+
+#diwu li {
+  /* font-size: 32px; */
+  color: #fff;
+  margin: 14px;
+
+
+}
+
+/* vip即将上映 */
+#diliu {
+  margin: 1px;
+  margin-top: 13px;
+  width: 100%;
+
+  background-color: rgb(43, 61, 81);
+
+  border-radius: 30px;
+  margin-left: 1px;
+  margin-bottom: 80px;
+}
+
+#diliu li {
+  /* font-size: 32px; */
+  color: #fff;
+  margin: 14px;
+  margin-top: 20px;
+
+}

@@ -1,0 +1,203 @@
+body,
+ul,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+
+  list-style: none;
+}
+
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #999;
+}
+
+#nav {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  display: flex;
+  background-color: #fff;
+}
+
+#nav li {
+  width: 20%;
+  text-align: center;
+
+}
+
+#nav li span {
+
+  font-size: 24px;
+  line-height: 30px;
+  display: block;
+  font-weight: bold;
+}
+
+/* 广场 动态 热门圈儿 */
+#banner {
+  display: flex;
+
+}
+
+#banner .fenlei1 {
+  position: relative;
+  font-size: 20px;
+  color: #999;
+  width: 40%;
+  margin-top: 5px;
+  margin-left: 20px;
+  min-width: 140px;
+}
+
+#banner .fenlei2 {
+  min-width: 150px;
+}
+
+#banner .fenlei2 a {
+  position: relative;
+  font-size: 28px;
+  color: black;
+
+}
+
+#banner span:first-child {
+  color: rgb(243, 98, 38);
+  font-size: 24px;
+}
+
+#banner .fenlei2 span {
+  position: fixed;
+  float: right;
+  margin-top: -32px;
+  right: 10px;
+  font-size: 28px;
+  color: rgb(8, 8, 8);
+
+
+}
+
+/* 我的 推荐 影视 动漫 综艺 游戏 NBA */
+#banner1 {
+  width: 100%;
+  left: 0;
+  z-index: 100;
+  display: flex;
+
+  margin: 6px;
+  margin-left: 1px;
+}
+
+#banner1 .fenlei {
+  width: 11%;
+  border-radius: 12px;
+  background-color: rgb(212, 212, 218);
+  margin-top: 10px;
+  margin: 5px;
+  margin-left: 8px;
+
+}
+
+#banner1 .fenlei:nth-child(3) {
+  background-color: rgb(239, 212, 200);
+
+}
+
+#banner1 .fenlei:nth-child(3) p {
+  color: rgb(243, 98, 38);
+
+}
+
+#banner1 .fenlei p {
+  width: 60px;
+  color: gray;
+}
+
+/* 返回顶部 */
+.content {
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+}
+
+.goBack {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 80px;
+  background-color: rgba(0, 0, 0, .5);
+  background-size: 38px 38px;
+}
+
+/* 榜单规则 */
+#bangdan {
+  margin-left: 10px;
+  width: 300px;
+}
+
+#bangdan p {
+  font-size: 24px;
+}
+
+/* 下面的目录 */
+#mulu {
+  margin-top: 10px;
+}
+
+#mulu .fenlei3 {
+  display: flex;
+  margin-top: 20px;
+
+}
+
+#mulu .fenlei3 p {
+
+  width: 200px;
+  height: 100px;
+  line-height: 20px;
+  margin: 0 auto;
+  margin-top: 5%;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+#mulu .fenlei3 a {
+  margin-top: 6%;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: coral;
+}
+
+.fenlei3:last-child {
+  margin-bottom: 80px;
+}
+
+.fenlei3 .jiaru {
+  display: inline-block;
+  height: 40px;
+  width: 75px;
+  color: rgb(231, 109, 58);
+  margin-top: 23px;
+  margin-right: 20px;
+  font: 20px Helvetica, Arial, sans-serif;
+  line-height: 40px;
+  background-color: rgb(255, 211, 192);
+  border-radius: 19px;
+  text-align: center;
+  min-width: 75px;
+}
+
+.fenlei3 .jiaru span {
+  font-size: 24px;
+  font-weight: bolder;
+}
